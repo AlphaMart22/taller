@@ -43,7 +43,7 @@ $_SESSION['merchterm'] = $merchterm;
 }else{*/
 	$_SESSION['entityId'] = "8a8294175f113aad015f11652f2200a5";
 	$_SESSION['autorizador'] =  "OGE4Mjk0MTg1YTY1YmY1ZTAxNWE2YzhjNzI4YzBkOTV8YmZxR3F3UTMyWA==";
-//}
+
 
 function request($items, $total,$iva,$totaTarifa12,$totalBase0,$email, $primer_nombre, $segundo_nombre, $apellido, $cedula, $trx,$ip_address, $finger,$merchterm,
 	$telefono, $direccion_cliente, $pais_cliente, $direccion_entrega, $pais_entrega) {
