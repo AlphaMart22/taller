@@ -45,19 +45,6 @@ $_SESSION['merchterm'] = $merchterm;
 	$_SESSION['autorizador'] =  "OGE4Mjk0MTg1YTY1YmY1ZTAxNWE2YzhjNzI4YzBkOTV8YmZxR3F3UTMyWA==";
 //}
 
-//$_SESSION['entityId']=$entity;
-//$_SESSION['autorizador']=$token;
-/*$_SESSION['userId']="8a8294185a65bf5e015a6c8b2f690d8b";
-$_SESSION['password']="RkjpyNNE8s";*/
-
-
-
-
-
-
-
-
-
 function request($items, $total,$iva,$totaTarifa12,$totalBase0,$email, $primer_nombre, $segundo_nombre, $apellido, $cedula, $trx,$ip_address, $finger,$merchterm,
 	$telefono, $direccion_cliente, $pais_cliente, $direccion_entrega, $pais_entrega) {
 	$finger = urlencode($finger);
